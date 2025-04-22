@@ -1,0 +1,295 @@
+
+<!-- saved from url=(0107)file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+            <style>
+                body { font-family: Arial, sans-serif; padding: 20px; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                table, th, td { border: 1px solid black; }
+                th, td { padding: 10px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                h1 { color: #333; }
+                a { text-decoration: none; color: #007BFF; }
+                a:hover { text-decoration: underline; }
+                #chartContainer { width: 100%; height: 400px; }
+            </style>
+            <script src="./gson_index_files/chart.js"></script>
+        </head>
+        <body>
+        <h1>Gson Usage Report</h1><p>Total Classes using Gson: 996</p>
+        <div id="chartContainer">
+            <canvas id="gsonClassesChart" width="1600" height="800" style="display: block; box-sizing: border-box; height: 400px; width: 800px;"></canvas>
+        </div>
+        <script>
+            const ctx = document.getElementById('gsonClassesChart').getContext('2d');
+            const gsonClassesChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['app/src', 'feature/upi', 'hns/src', 'feature/onboarding', 'feature/borrow', 'feature/widget', 'feature/mini', 'slice_upi/src', 'feature/auth', 'feature/mpin', 'sparta/src', 'feature/bbps', 'feature/rewards', 'feature/repay', 'feature/transaction-status', 'sliceutil/src', 'feature/subscription', 'feature/spend-analytics', 'feature/binding', 'feature/bank', 'slice_view/src', 'feature/payment-gateway', 'slice-nudge/src', 'slice-analytics/src', 'feature/common', 'platform/slice-analytics', 'communitydfm/src', 'feature/action-center', 'feature/bff', 'feature/platform', 'slice_juspay/src', 'slicelibrary/slice-selfie', 'slice_medialoader/src', 'foundation/core-networking', 'foundation/core-interfaces', 'feature/explore', 'feature/add-and-pay', 'feature/top-offers'],
+                    datasets: [{
+                        label: 'Number of Classes Using Gson',
+                        data: [350, 132, 59, 52, 46, 42, 36, 29, 22, 22, 19, 19, 18, 18, 14, 13, 12, 12, 11, 9, 7, 7, 6, 6, 5, 4, 4, 4, 4, 3, 3, 2, 1, 1, 1, 1, 1, 1],
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        },
+                        x: {
+                            ticks: {
+                                autoSkip: false,  // Ensure all labels are displayed
+                                maxRotation: 90,  // Adjust rotation if needed
+                                minRotation: 45   // Adjust rotation if needed
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Module (Pod)</th>
+                    <th>Number of Classes</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+            <tr>
+                <td>app/src</td>
+                <td>350</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/app/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/upi</td>
+                <td>132</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/upi.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>hns/src</td>
+                <td>59</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/hns/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/onboarding</td>
+                <td>52</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/onboarding.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/borrow</td>
+                <td>46</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/borrow.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/widget</td>
+                <td>42</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/widget.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/mini</td>
+                <td>36</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/mini.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slice_upi/src</td>
+                <td>29</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slice_upi/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/auth</td>
+                <td>22</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/auth.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/mpin</td>
+                <td>22</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/mpin.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>sparta/src</td>
+                <td>19</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/sparta/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/bbps</td>
+                <td>19</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/bbps.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/rewards</td>
+                <td>18</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/rewards.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/repay</td>
+                <td>18</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/repay.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/transaction-status</td>
+                <td>14</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/transaction-status.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>sliceutil/src</td>
+                <td>13</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/sliceutil/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/subscription</td>
+                <td>12</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/subscription.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/spend-analytics</td>
+                <td>12</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/spend-analytics.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/binding</td>
+                <td>11</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/binding.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/bank</td>
+                <td>9</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/bank.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slice_view/src</td>
+                <td>7</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slice_view/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/payment-gateway</td>
+                <td>7</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/payment-gateway.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slice-nudge/src</td>
+                <td>6</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slice-nudge/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slice-analytics/src</td>
+                <td>6</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slice-analytics/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/common</td>
+                <td>5</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/common.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>platform/slice-analytics</td>
+                <td>4</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/platform/slice-analytics.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>communitydfm/src</td>
+                <td>4</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/communitydfm/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/action-center</td>
+                <td>4</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/action-center.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/bff</td>
+                <td>4</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/bff.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/platform</td>
+                <td>3</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/platform.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slice_juspay/src</td>
+                <td>3</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slice_juspay/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slicelibrary/slice-selfie</td>
+                <td>2</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slicelibrary/slice-selfie.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>slice_medialoader/src</td>
+                <td>1</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/slice_medialoader/src.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>foundation/core-networking</td>
+                <td>1</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/foundation/core-networking.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>foundation/core-interfaces</td>
+                <td>1</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/foundation/core-interfaces.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/explore</td>
+                <td>1</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/explore.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/add-and-pay</td>
+                <td>1</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/add-and-pay.html">View Details</a></td>
+            </tr>
+            
+            <tr>
+                <td>feature/top-offers</td>
+                <td>1</td>
+                <td><a href="file:///Users/jishnuma/AndroidStudioProjects/buddyandroid-repay/build/platform/gson-usage-finder/feature/top-offers.html">View Details</a></td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        
+        </body></html>
